@@ -1,0 +1,6 @@
+[2025-04-14 16:14:33] Gencay (192.168.56.1) (RECEIVED): Merhaba
+[2025-04-14 16:20:17] Gencay (192.168.56.1) (RECEIVED): MErhaba2
+[2025-04-14 16:21:40] KAli (127.0.1.1) (SENT): Merhaba
+Merhaba
+[2025-04-14 16:32:53] KAli (127.0.1.1) (SENT): Merhaba
+Merhaba
