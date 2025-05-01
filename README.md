@@ -37,3 +37,10 @@ A decentralized chat system for LAN environments that enables peer discovery and
 1. **Start Peer Discovery** (in Terminal 1):  
    ```bash
    python Peer_Discovery.py
+This populates/updates users.json.
+
+Broadcast Your Presence (in Terminal 2):
+
+bash
+python Service_Announcer.py
+Enter a username if running for the first time.
