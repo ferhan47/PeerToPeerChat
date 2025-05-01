@@ -64,31 +64,31 @@ Username is saved to my_username.txt.
 
 Example Workflow 💬
 Secure Chat
-In Chat_Initiator, type chat and enter the target username.
+In **`Chat_Initiator`**, type **`chat`** and enter the target username.
 
 Choose "yes" for secure mode.
 
-Enter a private number (e.g., 7) for Diffie-Hellman key exchange.
+Enter a private number (e.g., **`7`**) for Diffie-Hellman key exchange.
 
 Send messages. Encrypted texts are marked with 🔐.
 
 Unsecure Chat
-Choose "no" for secure mode. Messages are plaintext (marked with 💬).
+Choose "**`no`**" for secure mode. Messages are plaintext (marked with 💬).
 
 View History
-Run python Chat_History.py or use the history command in Chat_Initiator.
+Run python **`Chat_History.py`** or use the **`history`** command in **`Chat_Initiator`**.
 
 Network Configuration ⚙️
-Broadcast IP: If your subnet differs from 192.168.1.*, edit BROADCAST_IP in Service_Announcer.py (e.g., 192.168.0.255).
+Broadcast IP: If your subnet differs from **`192.168.1.*`**, edit **`BROADCAST_IP`** in **`Service_Announcer.py`** (e.g., **`192.168.0.255`**).
 
 Known Limitations ⚠️
-Security: Hardcoded Diffie-Hellman parameters (P=19, G=2) and fixed private key (5 in Responder) make encryption weak.
+Security: Hardcoded Diffie-Hellman parameters (**`P=19, G=2`**) and fixed private key (**`5`** in Responder) make encryption weak.
 
 User Status: "Online" status expires after 10 seconds; "Away" after 15 minutes.
 
-Multi-Device Testing: On a single machine, manually edit users.json to simulate different users.
+Multi-Device Testing: On a single machine, manually edit **`users.json`** to simulate different users.
 
 Notes
-Change Username: Delete my_username.txt and rerun Service_Announcer.py.
+Change Username: **`Delete my_username.txt`** and rerun **`Service_Announcer.py`**.
 
-Logs: All messages are saved in chat_history.txt
+Logs: All messages are saved in **`chat_history.txt`**
