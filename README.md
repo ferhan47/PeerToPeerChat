@@ -33,14 +33,22 @@ A decentralized chat system for LAN environments that enables peer discovery and
 - All files must be in the same directory.
 - Firewall must allow **UDP port 6000** (discovery) and **TCP port 6001** (chat).
 
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-repo-url/p2p-chat.git
+   cd p2p-chat
+   
 ### Step-by-Step
-1. **Start Peer Discovery** (in Terminal 1):  
+2. **Start Peer Discovery** (in Terminal 1):  
    ```bash
    python Peer_Discovery.py
 This populates/updates users.json.
 
-Broadcast Your Presence (in Terminal 2):
-
-bash
-python Service_Announcer.py
+### Step-by-Step
+3. **Broadcast Your Presence** (in Terminal 2):
+   ```bash
+   python Peer_Discovery.py
 Enter a username if running for the first time.
+Username is saved to my_username.txt.
+   
