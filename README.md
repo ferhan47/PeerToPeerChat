@@ -1,4 +1,3 @@
-# PeerToPeerChat
 # Peer-to-Peer Chat Application
 
 A decentralized chat system for LAN environments that enables peer discovery and encrypted messaging using UDP broadcasts and TCP sockets. Ideal for local networks where users want minimal setup.
